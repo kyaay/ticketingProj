@@ -36,9 +36,9 @@ Body {
 
   position: absolute;
   margin-top: 38px;
-  margin-left: 23%;
+  margin-left: 30%;
   height: 70px;
-  width: 80%;
+  width: 70%;
   z-index: 1;
   background-color: red;
   border-top-left-radius: 15px;
