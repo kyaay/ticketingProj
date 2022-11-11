@@ -346,6 +346,10 @@ letter-spacing: 0.005em;
 
 }
 
+.page {
+  margin-left: 3in;
+}
+
 .pages .page {
   display: none;
 }

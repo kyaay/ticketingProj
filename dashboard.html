@@ -27,11 +27,13 @@
             <p>TICKET MANAGEMENT </p>
         </div>
 
-        <table>
+        <table class="btns">
             <tr>
                 <td>
                     <button class="btn is-active" id="list">
-                        TICKET LIST
+                        <a data-switcher data-tab="1">
+                            TICKET LIST
+                        </a>
                     </button>
                 </td>
             </tr>
@@ -39,7 +41,9 @@
             <tr>
                 <td>
                     <button class="btn" id="create">
-                        CREATE TICKET
+                        <a data-switcher data-tab="2">
+                            CREATE TICKET
+                        </a>
                     </button>
                 </td>   
             </tr>
@@ -47,7 +51,9 @@
             <tr>
                 <td>
                     <button class="btn" id="update">
-                        UPDATE TICKET
+                        <a data-switcher data-tab="3">
+                            UPDATE TICKET
+                        </a>
                     </button>
                 </td>    
             </tr>
@@ -55,7 +61,9 @@
             <tr>
                 <td>
                     <button class="btn" id="view">
-                        VIEW TICKET
+                        <a data-switcher data-tab="4">
+                            VIEW TICKET
+                        </a>
                     </button>
                 </td>    
             </tr>
@@ -63,14 +71,18 @@
             <tr>
                 <td>    
                     <button class="btn" id="addrem">
-                        ADD REMAINDER FOR AGING TICKETS
+                        <a data-switcher data-tab="5">
+                            ADD REMAINDER FOR AGING TICKETS
+                        </a>
                     </button>
                 </td>    
             </tr>
             <tr>
                 <td>    
                     <button class="btn" id="workflow">
-                        TICKET WORKFLOW
+                        <a data-switcher data-tab="6">
+                            TICKET WORKFLOW
+                        </a>
                     </button>
                     
                 </td>    
@@ -104,6 +116,6 @@
 
 
 
-
+        <script src="main.js"></script>
     </body>
 </html>
