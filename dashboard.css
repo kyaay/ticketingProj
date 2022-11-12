@@ -347,8 +347,9 @@ letter-spacing: 0.005em;
   background-color: black;
   opacity: 0.8;
   float: right;
-  clip-path: polygon(30% 0%, 95% -335%, 96% 100%, -1% 101%);
-
+  clip-path: polygon(29% 0%, 95% -335%, 96% 100%, -1% 101%);
+  border-top-left-radius:280px;
+ 
 }
 
 .page {
@@ -361,4 +362,91 @@ letter-spacing: 0.005em;
 
 .pages .page.is-active {
   display: block;
+}
+
+.custom-select {
+  position: relative;
+  font-family: Arial;
+  
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: rgb(18, 18, 19);
+  
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+  
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(255, 255, 255, 0.1) transparent;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: rgba(1, 1, 1, 1);
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(129, 121, 121, 0.1);
+}
+
+textarea {
+  margin-top:25px;
+  width: 80%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  resize: none;
+}
+
+.buttoncreate{
+  font-family: 'Arial';
+color:white;
+margin-left: 362px;
+margin-top:15px;
+position: absolute;
+text-align: center;
+background-color: #F12F2F;
+width: 100px;
+height: 50px;
+border-radius: 10px;
 }
