@@ -352,14 +352,17 @@ letter-spacing: 0.005em;
   border-top-left-radius:280px;
 }
 
+.pages h2{
+  font-size: 50px;
+}
 .page {
   margin-left: 2.5in;
-  font-size: 30pt;
+  
 }
 
 h2 {
   margin-top: 0%;
-  margin-bottom: 20px;
+  margin-bottom: 1px;
 }
 
 .pages .page {
@@ -372,8 +375,9 @@ h2 {
 
 .custom-select {
   position: relative;
-  font-family: Arial;
-
+  font-family: 'Chathura';
+  font-size: 30px;
+  
 }
 
 .custom-select select {
