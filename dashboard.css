@@ -338,9 +338,10 @@ letter-spacing: 0.005em;
 
 
 .pages {
+  font-family: 'Chathura';
   margin-top: -600px;
-  padding: 51px 75px;
-  height: 5in;
+  padding: 0px 75px;
+  height: 6in;
   width: 9in;
   padding-right: 0;
   color: white;
@@ -348,11 +349,16 @@ letter-spacing: 0.005em;
   opacity: 0.8;
   float: right;
   clip-path: polygon(30% 0%, 95% -335%, 96% 100%, -1% 101%);
-
 }
 
 .page {
-  margin-left: 3in;
+  margin-left: 2.5in;
+  font-size: 30pt;
+}
+
+h2 {
+  margin-top: 0%;
+  margin-bottom: 20px;
 }
 
 .pages .page {
@@ -362,3 +368,21 @@ letter-spacing: 0.005em;
 .pages .page.is-active {
   display: block;
 }
+
+.btns {
+  margin-left: -58px;
+}
+
+.update {
+  font-family: 'Chathura';
+  font-size: 20pt;
+  width: 194px;
+  border-radius: 50px;
+  font-weight: bolder;
+}
+  .update:active {
+    background-color: red;
+  }
+  .update:focus {
+    background-color: red;
+  }
