@@ -348,7 +348,7 @@ letter-spacing: 0.005em;
   background-color: black;
   opacity: 0.8;
   float: right;
-  clip-path: polygon(30% 0%, 95% -335%, 96% 100%, -1% 101%);
+  border-top-left-radius:280px;
 }
 
 .page {
@@ -368,21 +368,3 @@ h2 {
 .pages .page.is-active {
   display: block;
 }
-
-.btns {
-  margin-left: -58px;
-}
-
-.update {
-  font-family: 'Chathura';
-  font-size: 20pt;
-  width: 194px;
-  border-radius: 50px;
-  font-weight: bolder;
-}
-  .update:active {
-    background-color: red;
-  }
-  .update:focus {
-    background-color: red;
-  }
