@@ -370,6 +370,24 @@ h2 {
   display: block;
 }
 
+.btns {
+  margin-left: -58px;
+}
+
+.update {
+  font-family: 'Chathura';
+  font-size: 20pt;
+  width: 194px;
+  border-radius: 50px;
+  font-weight: bolder;
+}
+  .update:active {
+    background-color: red;
+  }
+  .update:focus {
+    background-color: red;
+  }
+
 .custom-select {
   position: relative;
   font-family: Arial;
