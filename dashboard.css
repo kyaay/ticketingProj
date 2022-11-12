@@ -358,8 +358,8 @@ letter-spacing: 0.005em;
 }
 
 h2 {
-  margin-top: 0%;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 0px;
 }
 
 .pages .page {
@@ -387,6 +387,26 @@ h2 {
   .update:focus {
     background-color: red;
   }
+
+.input {
+  height: 30px;
+  width: 233px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.updatebtn {
+  font-family: 'Arial';
+  color:white;
+  float: right;
+  margin-top:15px;
+  margin-right: 125px;
+  text-align: center;
+  background-color: #F12F2F;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+}
 
 .custom-select {
   position: relative;
