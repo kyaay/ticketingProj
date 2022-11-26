@@ -378,10 +378,13 @@ h2 {
   font-family: 'Chathura';
   font-size: 30px;
   
+  
 }
 
 .custom-select select {
   display: none;
+  height:50px;
+overflow-y: scroll;
 }
 
 .select-selected {
@@ -404,7 +407,7 @@ h2 {
 
 .select-selected.select-arrow-active:after {
   border-color: transparent transparent #fff transparent;
-  top: 7px;
+  top: 1px;
 }
 
 .select-items div,.select-selected {
@@ -413,6 +416,7 @@ h2 {
   border: 1px solid transparent;
   border-color: transparent transparent rgba(255, 255, 255, 0.1) transparent;
   cursor: pointer;
+  
 }
 
 .select-items {
@@ -422,6 +426,9 @@ h2 {
   left: 0;
   right: 0;
   z-index: 99;
+  height:50px;
+  overflow-y: scroll;
+  height: 400px;
 }
 
 .select-hide {
