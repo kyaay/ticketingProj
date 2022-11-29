@@ -1,0 +1,202 @@
+
+/*list*/
+#list{
+    border:none;
+    text-align: center;
+    font-family: 'Chathura' ;
+    border-radius:25px;
+    margin-bottom: 5px;
+    height: 93px;
+    color: aliceblue;
+    width: 4in;
+    background: rgba(36, 9, 9, 0.9);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    cursor: pointer;
+    font-size: 70px;  
+    letter-spacing: 0.005em;
+  }
+  
+  #list:hover{
+  
+    background-color: rgb(53, 52, 52);
+    }
+         
+    #list:active{
+    
+      background-color: black;
+    
+      }
+      #list:focus{
+    
+        background-color: black;
+        opacity: 80%;
+        
+        }
+
+/*create*/
+#create{
+    border:none;
+    text-align: center;
+    font-family: 'Chathura' ;
+    border-radius:25px;
+    height: 93px;
+    color: aliceblue;
+    width: 4in;
+    background: rgba(36, 9, 9, 0.9);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    cursor: pointer;
+    font-size: 70px;  
+    letter-spacing: 0.005em;
+  }
+  
+  #create:hover{
+  
+  background-color: rgb(53, 52, 52);
+  }
+       
+  #create:active{
+  
+    background-color: black;
+  
+    }
+    #create:focus{
+  
+      background-color: black;
+      opacity: 80%;
+      }
+      
+  /*update*/
+  #update{
+    border:none;
+    text-align: center;
+    font-family: 'Chathura' ;
+    border-radius:25px;
+    height: 93px;
+    color: aliceblue;
+    width: 4in;
+    background: rgba(36, 9, 9, 0.9);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    cursor: pointer;
+    font-size: 70px;  
+    letter-spacing: 0.005em;
+  }
+  
+  #update:hover{
+  
+    background-color: rgb(53, 52, 52);
+    }
+         
+    #update:active{
+    
+      background-color: black;
+    
+      }
+      #update:focus{
+    
+        background-color: black;
+        opacity: 80%;
+        }
+
+/*view*/     
+  #view{
+    border:none;
+    text-align: center;
+    font-family: 'Chathura' ;
+    border-radius:25px;
+    height: 93px;
+    color: aliceblue;
+    width: 4in;
+    background: rgba(36, 9, 9, 0.9);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    cursor: pointer;
+    font-size: 70px;  
+    letter-spacing: 0.005em;
+    
+  }
+  
+  #view:hover{
+  
+    background-color: rgb(53, 52, 52);
+    }
+         
+    #view:active{
+    
+      background-color: black;
+    
+      }
+      #view:focus{
+    
+        background-color: black;
+        opacity: 80%;
+        }
+
+/*addrem*/
+  #addrem{
+    border:none;
+    text-align: center;
+    font-family: 'Chathura' ;
+    border-radius:25px;
+    height: 93px;
+    color: aliceblue;
+    width: 4in;
+    background: rgba(36, 9, 9, 0.9);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    cursor: pointer;
+    font-size: 30pt;  
+    letter-spacing: 0.005em;
+    
+  }
+  
+  #addrem:hover{
+  
+    background-color: rgb(53, 52, 52);
+    }
+         
+    #addrem:active{
+    
+      background-color: black;
+    
+      }
+      #addrem:focus{
+    
+        background-color: black;
+        opacity: 80%;
+        }
+
+/*workflow*/
+  #workflow{
+    border:none;
+    text-align: center;
+    font-family: 'Chathura' ;
+    border-radius:25px;
+    height: 93px;
+    color: aliceblue;
+    width: 4in;
+    background: rgba(36, 9, 9, 0.9);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    cursor: pointer;
+    font-size: 48pt;  
+    letter-spacing: 0.005em;
+    
+  }
+  #workflow:hover{
+  
+    background-color: rgb(53, 52, 52);
+    }
+         
+    #workflow:active{
+    
+      background-color: black;
+    
+      }
+      #workflow:focus{
+    
+        background-color: black;
+        opacity: 80%;
+        } 

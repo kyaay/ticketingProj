@@ -8,6 +8,7 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="dashboard.css">
+        <link rel="stylesheet" href="buttons.css">
     </head>
 
     <body>
@@ -28,101 +29,14 @@
             <p>TICKET MANAGEMENT </p>
         </div>
 
-        <ul class="tabs">
-            <li class="tab is-active" id="list">
-                <a data-switcher data-tab="1">
-                    TICKET LIST
-                </a>
-            </li>
-            <li class="tab" id="create">
-                <a data-switcher data-tab="2">
-                    CREATE LIST
-                </a>
-            </li>
-            <li class="tab" id="update">
-                <a data-switcher data-tab="3">
-                    UPDATE TICKET
-                </a>
-            </li>
-            <li class="tab" id="view">
-                <a data-switcher data-tab="4">
-                    VIEW TICKET
-                </a>
-            </li>
-            <li class="tab" id="addrem">
-                <a data-switcher data-tab="5">
-                    ADD REMAINDER FOR AGING TICKETS
-                </a>
-            </li>
-            <li class="tab" id="workflow">
-                <a data-switcher data-tab="6">
-                    TICKET WORKFLOW
-                </a>
-            </li>
-        </ul>
-
-        <!-- <table class="btns">
-            <tr>
-                <td>
-                    <button class="btn is-active" id="list">
-                        <a data-switcher data-tab="1">
-                            TICKET LIST
-                        </a>
-                    </button>
-                </td>
-            </tr>
-            
-            <tr>
-                <td>
-                    <button class="btn" id="create">
-                        <a data-switcher data-tab="2">
-                            CREATE TICKET
-                        </a>
-                    </button>
-                </td>   
-            </tr>
-            
-            <tr>
-                <td>
-                    <button class="btn" id="update">
-                        <a data-switcher data-tab="3">
-                            UPDATE TICKET
-                        </a>
-                    </button>
-                </td>    
-            </tr>
-            
-            <tr>
-                <td>
-                    <button class="btn" id="view">
-                        <a data-switcher data-tab="4">
-                            VIEW TICKET
-                        </a>
-                    </button>
-                </td>    
-            </tr>
-            
-            <tr>
-                <td>    
-                    <button class="btn" id="addrem">
-                        <a data-switcher data-tab="5">
-                            ADD REMAINDER FOR AGING TICKETS
-                        </a>
-                    </button>
-                </td>    
-            </tr>
-            <tr>
-                <td>    
-                    <button class="btn" id="workflow">
-                        <a data-switcher data-tab="6">
-                            TICKET WORKFLOW
-                        </a>
-                    </button>
-                    
-                </td>    
-            </tr>
-            
-        </table> -->
+        <div class="btns">
+                    <button class="btn is-active" id="list">TICKET LIST</button>
+                    <button class="btn" id="create">CREATE TICKET</button>
+                    <button class="btn" id="update">UPDATE TICKET</button>
+                    <button class="btn" id="view">VIEW TICKET</button>
+                    <button class="btn" id="addrem">ADD REMAINDER FOR AGING TICKETS</button>  
+                    <button class="btn" id="workflow">TICKET WORKFLOW</button>
+        </div>
    
         <main>
             <section class="pages">
@@ -161,7 +75,7 @@
                 <div class="page" data-page="3">
                     <h2>Update Ticket</h2>
                     
-                    <div class="btns">
+                    <div class="btns-update">
                         <button class="update is-active">Update Ticket Status</button>
                         <button class="update">Update Ticket Assignee</button>
                         <button class="update">Edit Ticket</button>
